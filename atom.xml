@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dragonsaga.xyz/"/>
-  <updated>2019-01-15T16:17:46.870Z</updated>
+  <updated>2019-01-15T17:29:19.160Z</updated>
   <id>https://www.dragonsaga.xyz/</id>
   
   <author>
@@ -21,9 +21,18 @@
     <link href="https://www.dragonsaga.xyz/2019/01/16/day2/"/>
     <id>https://www.dragonsaga.xyz/2019/01/16/day2/</id>
     <published>2019-01-15T19:24:10.000Z</published>
-    <updated>2019-01-15T16:17:46.870Z</updated>
+    <updated>2019-01-15T17:29:19.160Z</updated>
+    
+    <content type="html"><![CDATA[<p>###关于表情包制作</p><p>出于一时兴趣, 整好复习下好久不用的photoshop<br>所有帧数在10左右浮动</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;p&gt;###关于表情包制作&lt;/p&gt;
+&lt;p&gt;出于一时兴趣, 整好复习下好久不用的photoshop&lt;br&gt;所有帧数在10左右浮动&lt;/p&gt;
+
+      
     
     </summary>
     
@@ -31,6 +40,35 @@
     
     
       <category term="emojii" scheme="https://www.dragonsaga.xyz/tags/emojii/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>B站直播</title>
+    <link href="https://www.dragonsaga.xyz/2019/01/16/testing/"/>
+    <id>https://www.dragonsaga.xyz/2019/01/16/testing/</id>
+    <published>2019-01-15T17:18:43.000Z</published>
+    <updated>2019-01-15T17:27:48.992Z</updated>
+    
+    <content type="html"><![CDATA[<p>##QQ群 920986964</p><img src="/2019/01/16/testing/pp.jpg" title="附上UP一张"><p><code>Up一张</code></p><p>需要表情包水友请在下面留言</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##QQ群 920986964&lt;/p&gt;
+&lt;img src=&quot;/2019/01/16/testing/pp.jpg&quot; title=&quot;附上UP一张&quot;&gt;
+&lt;p&gt;&lt;code&gt;Up一张&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;需要表情包水友请在下面留言&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="灌水" scheme="https://www.dragonsaga.xyz/categories/%E7%81%8C%E6%B0%B4/"/>
+    
+    
+      <category term="娱乐" scheme="https://www.dragonsaga.xyz/tags/%E5%A8%B1%E4%B9%90/"/>
     
   </entry>
   
