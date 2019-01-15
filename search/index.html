@@ -122,10 +122,25 @@
                 
                 
                 
-                <li class="">
-                    <a href="/categories">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-list"></i>分类
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/categories/日常daily/">日常daily</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/灌水/">灌水</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -141,7 +156,11 @@
                         
                         
                         <li>
-                            <a href="/tags/日常/">日常</a>
+                            <a href="/tags/简介intro/">简介intro</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/emojii/">emojii</a>
                         </li>
                         
                         
@@ -223,7 +242,7 @@
       	var [month, day] = article.date.split('-')
         ''
         ''
-        var defaultPreview = '/imgs/preview/preview4.jpg'
+        var defaultPreview = '/imgs/preview/preview3.jpg'
         var preview = article.preview ? article.preview : defaultPreview
         var path = '/' + article.path
         resultList.append(`<div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
@@ -432,13 +451,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/01/15/day1/">day1</a>
+                    <a href="/2019/01/16/hello-world/">emojii package 关于表情包</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/01/15/hello-world/">Hello World</a>
+                    <a href="/2019/01/15/day1/">About myBlog 关于本博客</a>
                 </span>
             </li>
             
@@ -460,13 +479,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/01/15/hello-world/">Hello World</a>
+                    <a href="/2019/01/15/day1/">About myBlog 关于本博客</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/01/15/day1/">day1</a>
+                    <a href="/2019/01/16/hello-world/">emojii package 关于表情包</a>
                 </span>
             </li>
             
@@ -499,7 +518,9 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
-    <a href="/tags/日常/" style="font-size: 11.735622287593277px;" class="tag-cloud-link">日常</a>
+    <a href="/tags/简介intro/" style="font-size: 9.943405294750438px;" class="tag-cloud-link">简介intro</a>
+    
+    <a href="/tags/emojii/" style="font-size: 12.60510039827255px;" class="tag-cloud-link">emojii</a>
     
 </div>
                 

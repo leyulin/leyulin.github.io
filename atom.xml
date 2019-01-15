@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dragonsaga.xyz/"/>
-  <updated>2019-01-15T10:47:49.293Z</updated>
+  <updated>2019-01-15T16:17:46.870Z</updated>
   <id>https://www.dragonsaga.xyz/</id>
   
   <author>
@@ -17,39 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>day1</title>
-    <link href="https://www.dragonsaga.xyz/2019/01/15/day1/"/>
-    <id>https://www.dragonsaga.xyz/2019/01/15/day1/</id>
-    <published>2019-01-14T19:24:10.000Z</published>
-    <updated>2019-01-15T10:47:49.293Z</updated>
+    <title>emojii package 关于表情包</title>
+    <link href="https://www.dragonsaga.xyz/2019/01/16/hello-world/"/>
+    <id>https://www.dragonsaga.xyz/2019/01/16/hello-world/</id>
+    <published>2019-01-15T19:24:10.000Z</published>
+    <updated>2019-01-15T16:17:46.870Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="灌水" scheme="https://www.dragonsaga.xyz/categories/%E7%81%8C%E6%B0%B4/"/>
     
-      <category term="日常" scheme="https://www.dragonsaga.xyz/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+      <category term="emojii" scheme="https://www.dragonsaga.xyz/tags/emojii/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://www.dragonsaga.xyz/2019/01/15/hello-world/"/>
-    <id>https://www.dragonsaga.xyz/2019/01/15/hello-world/</id>
-    <published>2019-01-14T19:03:49.094Z</published>
-    <updated>2019-01-14T19:03:49.094Z</updated>
+    <title>About myBlog 关于本博客</title>
+    <link href="https://www.dragonsaga.xyz/2019/01/15/day1/"/>
+    <id>https://www.dragonsaga.xyz/2019/01/15/day1/</id>
+    <published>2019-01-14T19:24:10.000Z</published>
+    <updated>2019-01-15T16:13:41.637Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="About-my-Blog"><a href="#About-my-Blog" class="headerlink" title="About my Blog "></a>About my Blog </h1><p>I used <a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a> for build my Blog<br>For more <code>information</code> you can click link above.<br>Before I was using jekyll built myblog; however, due to<br>gem version issues. I changed a prevalant apporach to setup<br>my blog. </p><p><code>Hexo has those two wonderful commands below</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p><h1 id="关于本博客"><a href="#关于本博客" class="headerlink" title="关于本博客"></a>关于本博客</h1><p> ###本博客采用Hexo+git搭建 <code>Hexo</code>介绍：<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a> </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h1 id=&quot;About-my-Blog&quot;&gt;&lt;a href=&quot;#About-my-Blog&quot; class=&quot;headerlink&quot; title=&quot;About my Blog &quot;&gt;&lt;/a&gt;About my Blog &lt;/h1&gt;&lt;p&gt;I used &lt;a href=&quot;https://
       
     
     </summary>
     
+      <category term="日常daily" scheme="https://www.dragonsaga.xyz/categories/%E6%97%A5%E5%B8%B8daily/"/>
+    
+    
+      <category term="简介intro" scheme="https://www.dragonsaga.xyz/tags/%E7%AE%80%E4%BB%8Bintro/"/>
     
   </entry>
   
