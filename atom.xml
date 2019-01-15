@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Blog</title>
   
-  
+  <subtitle>No game no life</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://www.dragonsaga.xyz/"/>
   <updated>2019-01-14T19:24:10.627Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://www.dragonsaga.xyz/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>KeyBoardWarrior</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>day1</title>
-    <link href="http://yoursite.com/2019/01/15/day1/"/>
-    <id>http://yoursite.com/2019/01/15/day1/</id>
+    <link href="https://www.dragonsaga.xyz/2019/01/15/day1/"/>
+    <id>https://www.dragonsaga.xyz/2019/01/15/day1/</id>
     <published>2019-01-14T19:24:10.000Z</published>
     <updated>2019-01-14T19:24:10.627Z</updated>
     
@@ -32,8 +32,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/15/hello-world/"/>
-    <id>http://yoursite.com/2019/01/15/hello-world/</id>
+    <link href="https://www.dragonsaga.xyz/2019/01/15/hello-world/"/>
+    <id>https://www.dragonsaga.xyz/2019/01/15/hello-world/</id>
     <published>2019-01-14T19:03:49.094Z</published>
     <updated>2019-01-14T19:03:49.094Z</updated>
     
