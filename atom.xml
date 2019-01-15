@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dragonsaga.xyz/"/>
-  <updated>2019-01-14T19:24:10.627Z</updated>
+  <updated>2019-01-15T10:47:49.293Z</updated>
   <id>https://www.dragonsaga.xyz/</id>
   
   <author>
@@ -21,12 +21,14 @@
     <link href="https://www.dragonsaga.xyz/2019/01/15/day1/"/>
     <id>https://www.dragonsaga.xyz/2019/01/15/day1/</id>
     <published>2019-01-14T19:24:10.000Z</published>
-    <updated>2019-01-14T19:24:10.627Z</updated>
+    <updated>2019-01-15T10:47:49.293Z</updated>
     
     <summary type="html">
     
     </summary>
     
+    
+      <category term="日常" scheme="https://www.dragonsaga.xyz/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
