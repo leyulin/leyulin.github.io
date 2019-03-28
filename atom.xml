@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dragonsaga.xyz/"/>
-  <updated>2019-01-15T18:01:29.818Z</updated>
+  <updated>2019-02-17T02:27:12.115Z</updated>
   <id>https://www.dragonsaga.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Operating System</title>
+    <link href="https://www.dragonsaga.xyz/2019/02/17/OS_1/"/>
+    <id>https://www.dragonsaga.xyz/2019/02/17/OS_1/</id>
+    <published>2019-02-17T02:25:43.000Z</published>
+    <updated>2019-02-17T02:27:12.115Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Operating-System-Concepts-7th-Edition-2"><a href="#Operating-System-Concepts-7th-Edition-2" class="headerlink" title="Operating System Concepts 7th Edition-2"></a>Operating System Concepts 7th Edition-2</h1><p><code>Chapter 1</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Operating-System-Concepts-7th-Edition-2&quot;&gt;&lt;a href=&quot;#Operating-System-Concepts-7th-Edition-2&quot; class=&quot;headerlink&quot; title=&quot;Operating Syst
+      
+    
+    </summary>
+    
+      <category term="读后感" scheme="https://www.dragonsaga.xyz/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+    
+    
+      <category term="CS Study" scheme="https://www.dragonsaga.xyz/tags/CS-Study/"/>
+    
+  </entry>
   
   <entry>
     <title>emojii package 关于表情包</title>
