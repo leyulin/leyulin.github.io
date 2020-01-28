@@ -5,7 +5,7 @@
   <subtitle>No game no life</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.dragonsaga.xyz/"/>
+  <link href="https://leyulin.github.io/"/>
   <updated>2019-02-17T02:27:12.115Z</updated>
   <id>https://leyulin.github.io/</id>
   
@@ -18,7 +18,7 @@
   
   <entry>
     <title>Operating System</title>
-    <link href="https://www.dragonsaga.xyz/2019/02/17/OS_1/"/>
+    <link href="https://leyulin.github.io/2019/02/17/OS_1/"/>
     <id>https://leyulin.github.io/2019/02/17/OS_1/</id>
     <published>2019-02-17T02:25:43.000Z</published>
     <updated>2019-02-17T02:27:12.115Z</updated>
@@ -34,16 +34,16 @@
     
     </summary>
     
-      <category term="读后感" scheme="https://www.dragonsaga.xyz/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
+      <category term="读后感" scheme="https://leyulin.github.io/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
     
     
-      <category term="CS Study" scheme="https://www.dragonsaga.xyz/tags/CS-Study/"/>
+      <category term="CS Study" scheme="https://leyulin.github.io/tags/CS-Study/"/>
     
   </entry>
   
   <entry>
     <title>emojii package 关于表情包</title>
-    <link href="https://www.dragonsaga.xyz/2019/01/16/day2/"/>
+    <link href="https://leyulin.github.io/2019/01/16/day2/"/>
     <id>https://leyulin.github.io/2019/01/16/day2/</id>
     <published>2019-01-15T19:24:10.000Z</published>
     <updated>2019-01-15T18:01:29.818Z</updated>
@@ -60,16 +60,16 @@
     
     </summary>
     
-      <category term="灌水" scheme="https://www.dragonsaga.xyz/categories/%E7%81%8C%E6%B0%B4/"/>
+      <category term="灌水" scheme="https://leyulin.github.io/categories/%E7%81%8C%E6%B0%B4/"/>
     
     
-      <category term="emojii" scheme="https://www.dragonsaga.xyz/tags/emojii/"/>
+      <category term="emojii" scheme="https://leyulin.github.io/tags/emojii/"/>
     
   </entry>
   
   <entry>
     <title>B站直播</title>
-    <link href="https://www.dragonsaga.xyz/2019/01/16/testing/"/>
+    <link href="https://leyulin.github.io/2019/01/16/testing/"/>
     <id>https://leyulin.github.io/2019/01/16/testing/</id>
     <published>2019-01-15T17:18:43.000Z</published>
     <updated>2019-01-15T18:24:41.782Z</updated>
@@ -85,16 +85,16 @@
     
     </summary>
     
-      <category term="灌水" scheme="https://www.dragonsaga.xyz/categories/%E7%81%8C%E6%B0%B4/"/>
+      <category term="灌水" scheme="https://leyulin.github.io/categories/%E7%81%8C%E6%B0%B4/"/>
     
     
-      <category term="娱乐" scheme="https://www.dragonsaga.xyz/tags/%E5%A8%B1%E4%B9%90/"/>
+      <category term="娱乐" scheme="https://leyulin.github.io/tags/%E5%A8%B1%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>About myBlog 关于本博客</title>
-    <link href="https://www.dragonsaga.xyz/2019/01/15/day1/"/>
+    <link href="https://leyulin.github.io/2019/01/15/day1/"/>
     <id>https://leyulin.github.io/2019/01/15/day1/</id>
     <published>2019-01-14T19:24:10.000Z</published>
     <updated>2019-01-15T16:13:41.637Z</updated>
@@ -110,10 +110,10 @@
     
     </summary>
     
-      <category term="日常daily" scheme="https://www.dragonsaga.xyz/categories/%E6%97%A5%E5%B8%B8daily/"/>
+      <category term="日常daily" scheme="https://leyulin.github.io/categories/%E6%97%A5%E5%B8%B8daily/"/>
     
     
-      <category term="简介intro" scheme="https://www.dragonsaga.xyz/tags/%E7%AE%80%E4%BB%8Bintro/"/>
+      <category term="简介intro" scheme="https://leyulin.github.io/tags/%E7%AE%80%E4%BB%8Bintro/"/>
     
   </entry>
   
