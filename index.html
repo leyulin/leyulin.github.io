@@ -151,92 +151,56 @@
     <div class="d-flex">
         <div class=" table-responsive align-items-center d-flex mx-md-4 selectorForPc text-info" id="selector" >
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('语')" class="form-check-input" type="radio" name="flexRadioDefault" id="all" checked="">
+                <input value="全部" class="form-check-input" type="radio" name="flexRadioDefault" id="all">
                 <label class="form-check-label" for="all">
                     全部
                 </label>
             </div>
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('经典老歌')" class="form-check-input" type="radio" name="flexRadioDefault" id="old">
-                <label class="form-check-label" for="old">
-                    经典老歌
-                </label>
-            </div>
-            <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('国语')" class="form-check-input" type="radio" name="flexRadioDefault" id="chinese">
+                <input value="国语" class="form-check-input" type="radio" name="flexRadioDefault" id="chinese">
                 <label class="form-check-label" for="chinese">
                     国语
                 </label>
             </div>
             <div class="form-check mx-1 selectorForPc">
-                <input onclick="searchbylaguage('日语')" class="form-check-input" type="radio" name="flexRadioDefault" id="janpanes">
-                <label class="form-check-label" for="janpanes">
-                    日语
-                </label>
-            </div>
-            <div class="form-check mx-1 selectorForPc">
-                <input onclick="searchbylaguage('英语')" class="form-check-input" type="radio" name="flexRadioDefault" id="english">
-                <label class="form-check-label" for="english">
-                    英语
-                </label>
-            </div>
-            <div class="form-check mx-1 selectorForPc">
-                <input onclick="searchbylaguage('粤语')" class="form-check-input" type="radio" name="flexRadioDefault" id="cantonese">
+                <input value="粤语" class="form-check-input" type="radio" name="flexRadioDefault" id="cantonese">
                 <label class="form-check-label" for="cantonese">
                     粤语
                 </label>
             </div>
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('ACG')" class="form-check-input" type="radio" name="flexRadioDefault" id="ACG">
-                <label class="form-check-label" for="ACG">
-                    ACG
-                </label>
-            </div>
-
-            <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('古风')" class="form-check-input" type="radio" name="flexRadioDefault" id="oldFashion">
+                <input value="古风" class="form-check-input" type="radio" name="flexRadioDefault" id="oldFashion">
                 <label class="form-check-label" for="oldFashion">
                     古风
                 </label>
             </div>
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('流行')" class="form-check-input" type="radio" name="flexRadioDefault" id="pop">
+                <input value="流行" class="form-check-input" type="radio" name="flexRadioDefault" id="pop">
                 <label class="form-check-label" for="pop">
                     流行
                 </label>
             </div>
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('民谣')" class="form-check-input" type="radio" name="flexRadioDefault" id="poet">
+                <input value="民谣" class="form-check-input" type="radio" name="flexRadioDefault" id="poet">
                 <label class="form-check-label" for="poet">
                     民谣
                 </label>
             </div>
             <div class="form-check  mx-1 selectorForPc">
-                <input onclick="searchbylaguage('付费')" class="form-check-input" type="radio" name="flexRadioDefault" id="pay">
-                <label class="form-check-label" for="pay">
-                    付费
+                <input value="舰长歌曲" class="form-check-input" type="radio" name="flexRadioDefault" id="vip1">
+                <label class="form-check-label" for="vip1">
+                    舰长歌曲
+                </label>
+            </div>
+            <div class="form-check  mx-1 selectorForPc">
+                <input value="提督歌曲" class="form-check-input" type="radio" name="flexRadioDefault" id="vip2">
+                <label class="form-check-label" for="vip2">
+                    提督歌曲
                 </label>
             </div>
         </div>
-        <div class="dropdown mx-4" id="selectorForMobieDevice">
-            <button type="button" id="selectorButtonForMobieDevice" class="btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
-                全部
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" onclick="searchbylaguage('语')">全部</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('经典老歌')">经典老歌</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('国语')">国语</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('英语')">英语</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('日语')">日语</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('ACG')">ACG</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('古风')">古风</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('流行')">流行</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('民谣')">民谣</a></li>
-                <li><a class="dropdown-item" onclick="searchbylaguage('付费')">付费</a></li>
-            </ul>
-        </div>
-        <div class="search ms-auto" onkeyup="searchbyname()" style="text-align: center;">
-            <input id="NameOfSong" type="text" class="form-control-sm " placeholder="搜索">
+        <div class="search ms-auto" style="text-align: center;">
+            <input id="NameOfSong" type="text" class="form-control-sm " placeholder="搜索 例：歌手/曲目/曲种">
         </div>
     </div>
 <div class="mx-md-4 table-responsive">
@@ -246,51 +210,90 @@
             <th scope="col"></th>
             <th scope="col">歌名</th>
             <th scope="col">歌手</th>
-            <th scope="col">曲风</th>
+            <th scope="col">曲种</th>
+            <th scope="col">语言</th>
             <th scope="col">备注</th>
         </thead>
         <tbody id="songListBody">
             <tr>
                 <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 アムリタ">アムリタ</td>
-                <td>牧野由依</td>
-                <td>日语；ACG</td>
-                <td>蜜雨/翼·年代记 OVA ED</td>
-            </tr>
-            <tr>
-                <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 Gallows bell">Gallows bell</td>
-                <td>F9</td>
-                <td>日语；流行</td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 讨">讨</td>
+                <td>王靖雯</td>
+                <td>流行</td>
+                <td>国语</td>
                 <td></td>
             </tr>
             <tr>
                 <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 この狭い鳥籠の中で">この狭い鳥籠の中で</td>
-                <td>Sound Horizon</td>
-                <td>日语；流行</td>
-                <td>在这狭小的鸟笼中</td>
-            </tr>
-            <tr>
-                <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 辿りつく詩">辿りつく詩</td>
-                <td>Sound Horizon</td>
-                <td>日语；流行</td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 问">问</td>
+                <td>梁静茹</td>
+                <td>流行</td>
+                <td>国语</td>
                 <td></td>
             </tr>
             <tr>
                 <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 Shangri-la">Shangri-la</td>
-                <td>angela</td>
-                <td>日语；ACG</td>
-                <td>苍穹的法芙娜OP</td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 借我">借我</td>
+                <td>谢春花</td>
+                <td>民谣</td>
+                <td>国语</td>
+                <td></td>
             </tr>
             <tr>
                 <td align="center" style="color: rgb(124,124,134);"> </td>
-                <td onclick="copy(this)" data-clipboard-text="点歌 ※自傷無色">※自傷無色</td>
-                <td>VOCALOID</td>
-                <td>日语；流行；付费</td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 小小">小小</td>
+                <td>曹格</td>
+                <td>古风</td>
+                <td>国语</td>
                 <td></td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 琴师">琴师</td>
+                <td>陈元汐</td>
+                <td>古风</td>
+                <td>国语</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 慕容雪">慕容雪</td>
+                <td>薛凯琪</td>
+                <td>流行</td>
+                <td>粤语</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 灰姑娘">灰姑娘</td>
+                <td>梁咏琪</td>
+                <td>流行</td>
+                <td>粤语</td>
+                <td>缸爸说什么时候 安排一下学会这一首</td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 天下第一">天下第一</td>
+                <td>菜菜公主</td>
+                <td>提督歌曲</td>
+                <td>国语</td>
+                <td>缸爸觉得特别特别好听!! 嘻嘻</td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 舰长不要跑">舰长不要跑</td>
+                <td>菜菜公主</td>
+                <td>舰长歌曲</td>
+                <td>国语</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td align="center" style="color: rgb(124,124,134);"> </td>
+                <td onclick="copy(this)" data-clipboard-text="点歌 彩虹糖的梦">彩虹糖的梦</td>
+                <td>菜菜公主</td>
+                <td>舰长歌曲</td>
+                <td>国语</td>
+                <td>缸爸最喜欢这首歌了 菜菜公主最可爱了</td>
             </tr>
         </tbody>
     </table>
@@ -323,6 +326,7 @@
         <script src="/js/clipboard.min.js"></script>
         <script src="/js/particlex.js"></script>
         <script src="/js/showimg.js"></script>
+        <script src="/js/filter.js"></script>
         <script src="/js/fireworks.js"></script>
         
 
