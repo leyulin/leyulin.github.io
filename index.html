@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-        <title>在菜菜身边</title>
+        <title>菜菜的小屋</title>
         <meta name="author" content="缸子的奶爸">
-        <meta name="description" content="this website built by 缸子的奶爸(Jack) @2022 CoryRight">
+        <meta name="description" content="欢迎大家">
         <meta name="keywords" content="">
         <link rel="icon" href="">
         <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
@@ -38,32 +38,32 @@
 <nav id="menu">
     <div class="desktop-menu">
         <a href="/">
-            <span class="title">在菜菜身边</span>
+            <span class="title">菜菜的小屋</span>
         </a>
         
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
-            <span>&ensp;home</span>
+            <span>&ensp;主页</span>
         </a>
         
         <a href="/about">
-            <i class="fa-solid fa-id-card fa-fw"></i>
-            <span>&ensp;about</span>
+            <i class="fa-solid fa-dog fa-fw"></i>
+            <span>&ensp;关于菜菜</span>
         </a>
         
         <a href="/archives">
-            <i class="fa-solid fa-box-archive fa-fw"></i>
-            <span>&ensp;archives</span>
+            <i class="fa-solid fa-headphones fa-fw"></i>
+            <span>&ensp;动态</span>
         </a>
         
         <a href="/categories">
-            <i class="fa-solid fa-bookmark fa-fw"></i>
-            <span>&ensp;categories</span>
+            <i class="fa-solid fa-book fa-fw"></i>
+            <span>&ensp;分类</span>
         </a>
         
         <a href="/tags">
-            <i class="fa-solid fa-tags fa-fw"></i>
-            <span>&ensp;tags</span>
+            <i class="fa-solid fa-ribbon fa-fw"></i>
+            <span>&ensp;标签</span>
         </a>
         
     </div>
@@ -71,7 +71,7 @@
         <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
         <div :class="'title'" @click="menu_show = !menu_show">
             <i class="fa-solid fa-bars fa-fw"></i>
-            <span>&emsp;在菜菜身边</span>
+            <span>&emsp;菜菜的小屋</span>
         </div>
         <transition name="slide">
         <div class="items" v-show="menu_show">
@@ -81,43 +81,43 @@
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
                         <i class="fa-solid fa-house fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">home</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
                 </div>
             </a>
             
             <a href="/about">
                 <div class="item">
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-id-card fa-fw"></i>
+                        <i class="fa-solid fa-dog fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">about</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">关于菜菜</div>
                 </div>
             </a>
             
             <a href="/archives">
                 <div class="item">
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                        <i class="fa-solid fa-headphones fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">archives</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">动态</div>
                 </div>
             </a>
             
             <a href="/categories">
                 <div class="item">
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                        <i class="fa-solid fa-book fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">categories</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
                 </div>
             </a>
             
             <a href="/tags">
                 <div class="item">
                     <div style="min-width: 20px; max-width: 50px; width: 10%">
-                        <i class="fa-solid fa-tags fa-fw"></i>
+                        <i class="fa-solid fa-ribbon fa-fw"></i>
                     </div>
-                    <div style="min-width: 100px; max-width: 150%; width: 20%">tags</div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
                 </div>
             </a>
             
@@ -128,7 +128,7 @@
                     </div>
                     <div id="main">
                         <div id="home-head">
-    <div id="home-background" style="background-image: url()"></div>
+    <div id="home-background" style="background-image: url(/images/background.png)"></div>
     
     <div id="home-info" class="home-info" @click="home_click">
         <span class="loop"></span>
@@ -137,16 +137,16 @@
         <span class="loop"></span>
         <span class="info">
             <div class="wrap">
-                <h1>在菜菜身边</h1>
-                <h3></h3>
-                <h5>this website built by 缸子的奶爸(Jack) @2022 CoryRight</h5>
+                <h1>菜菜的小屋</h1>
+                <h3></h3><a target="_blank" rel="noopener" href="https://space.bilibili.com/2036007007">小野智香菜</a
+                <h5>欢迎大家</h5>
             </div>
         </span>
     </div>
     
 </div>
 
-<section style="background-color:rgb(80, 80, 127);  " class="p-4 p-lg-5 mt-5">
+<section style="background-color:rgb(28, 28, 30);  " class="p-4 p-lg-5 mt-5">
     <div class="d-flex">
         <div class=" table-responsive align-items-center d-flex mx-md-4 selectorForPc text-info" id="selector" >
             <div class="form-check  mx-1 selectorForPc">
@@ -299,15 +299,14 @@
 <footer id="footer">
     <div class="footer-wrap">
         <div>
-            © 20xx - 2022 在菜菜身边
+            © 2022 - 2022 菜菜的小屋
             <span class="footer-icon">
                 <i class="fa-solid fa-font-awesome fa-fw"></i>
             </span>
             @缸子的奶爸
         </div>
         <div></div>
-        <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
-                target="_blank" rel="noopener" href="https://github.com/argvchs/hexo-theme-particlex">ParticleX Theme</a></div>
+        <div>给缸爸点点关注 <a target="_blank" rel="noopener" href="https://space.bilibili.com/5076247">Bilibili_缸子的奶爸</a></div>
         
     </div>
 </footer>
