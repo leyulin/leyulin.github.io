@@ -143,98 +143,6 @@
     </div>
     
 </div>
-
-<div id="home-posts-wrap" class="">
-    <div id="home-posts">
-        <div id="posts">
-            
-
-<div class="post">
-    <a href="/2022/10/06/hello-world/">
-        <h2 class="post-title">Hello World</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="date">
-            <span class="icon">
-                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
-            </span>
-            2022/10/6
-        </span>
-    </div>
-    <div class="excerpt">
-        <div class="content" v-pre>
-            
-            <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        
-    </div>
-    <a href="/2022/10/06/hello-world/" class="go-post">阅读全文</a>
-</div>
-
-             
-<div class="page-current">
-    <div class="prev">
-        
-    </div>
-    <div class="page-index">
-        
-        <span class="current">
-            1
-        </span>
-        
-    </div>
-    <div class="next">
-        
-    </div>
-</div>
-        </div>
-    </div>
-    
-    <div id="home-card">
-        <div id="card-div">
-    <div class="card-style" style="width: 300px">
-        <div class="avatar">
-            <img src=" " alt="avatar">
-        </div>
-        <div class="name">
-            缸子的奶爸
-        </div>
-        <div class="descriptions">
-            
-            <div class="description">
-                Description...
-            </div>
-            
-        </div>
-        <div class="icon-links">
-            
-        </div>
-        <div class="friend-links">
-            
-        </div>
-    </div>
-</div>
-    </div>
-    
-</div>
                          
 <footer id="footer">
     <div class="footer-wrap">
@@ -258,7 +166,51 @@
                 <img id="img_content" alt="img_show">
             </div>
         </div>
+        <div class="mx-md-4 table-responsive">
+            <table id="songs" class="table my-3 table-borderless" style="color: white; white-space:nowrap;">
+
+                <thead class="table-dark" style="color: rgb(122,122,131); border-radius: 5px;  ">
+                    <th scope="col"></th>
+                    <th scope="col">歌名</th>
+                    <th scope="col">歌手</th>
+                    <th scope="col">曲风</th>
+                    <th scope="col">备注</th>
+                </thead>
+                <tbody id="songListBody">
+                    <tr>
+                        <td align="center" style="color: rgb(124,124,134);"> </td>
+                        <td onclick="copy(this)" data-clipboard-text="点歌 アムリタ">アムリタ</td>
+                        <td>牧野由依</td>
+                        <td>日语；ACG</td>
+                        <td>蜜雨/翼·年代记 OVA ED</td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="color: rgb(124,124,134);"> </td>
+                        <td onclick="copy(this)" data-clipboard-text="点歌 Gallows bell">Gallows bell</td>
+                        <td>F9</td>
+                        <td>日语；流行</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="color: rgb(124,124,134);"> </td>
+                        <td onclick="copy(this)" data-clipboard-text="点歌 この狭い鳥籠の中で">この狭い鳥籠の中で</td>
+                        <td>Sound Horizon</td>
+                        <td>日语；流行</td>
+                        <td>在这狭小的鸟笼中</td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="color: rgb(124,124,134);"> </td>
+                        <td onclick="copy(this)" data-clipboard-text="点歌 辿りつく詩">辿りつく詩</td>
+                        <td>Sound Horizon</td>
+                        <td>日语；流行</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/clipboard.min.js"></script>
         <script src="/js/particlex.js"></script>
         <script src="/js/showimg.js"></script>
         <script src="/js/fireworks.js"></script>
