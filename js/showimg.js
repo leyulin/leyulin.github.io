@@ -28,22 +28,20 @@
     });
 })();
 
-        !function () {
-          var devices = ["iPhone","Android","Windows Phone"]
-          var ua = window.navigator.userAgent
-          var isMobile = false;
-          for (var i = 0; i < devices.length; i++) {
-              if (ua.indexOf(devices[i]) != -1) {
-                isMobile = true;
-              }
-          }
-          if(isMobile)
-          {
-            document.getElementById("selector").style.visibility="hidden";	
-            document.getElementById("selectorForMobieDevice").style.visibility="visible";
-          }
-          else
-          {
-            document.getElementById("selectorForMobieDevice").style.visibility="hidden";
-          }
-        }()
+!function () {
+    var devices = ["iPhone", "Android", "Windows Phone"]
+    var ua = window.navigator.userAgent
+    var isMobile = false;
+    for (var i = 0; i < devices.length; i++) {
+        if (ua.indexOf(devices[i]) != -1) {
+            isMobile = true;
+        }
+    }
+    if (isMobile) {
+        document.getElementById("selector").style.visibility = "hidden";
+        document.getElementById("selectorForMobieDevice").style.visibility = "visible";
+    }
+    else {
+        document.getElementById("selectorForMobieDevice").style.visibility = "hidden";
+    }
+}()
