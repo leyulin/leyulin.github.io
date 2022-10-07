@@ -27,3 +27,23 @@
         hide();
     });
 })();
+
+        !function () {
+          var devices = ["iPhone","Android","Windows Phone"]
+          var ua = window.navigator.userAgent
+          var isMobile = false;
+          for (var i = 0; i < devices.length; i++) {
+              if (ua.indexOf(devices[i]) != -1) {
+                isMobile = true;
+              }
+          }
+          alert(document.getElementById("selectorForMobieDevice").style.visibility);
+          if(isMobile)
+          {
+            document.getElementById("selector").style.visibility = "hidden";
+          }
+          else
+          {
+            document.getElementById("selectorForMobieDevice").style.visibility = "hidden";
+          }
+        }()

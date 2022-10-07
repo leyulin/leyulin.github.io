@@ -200,6 +200,21 @@
                 </label>
             </div>
         </div>
+        <div class="dropdown mx-4" id="selectorForMobieDevice">
+            <button type="button" id="selectorButtonForMobieDevice"
+                class="btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                全部
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" value="全部">全部</a></li>
+                <li><a class="dropdown-item" value="国语">国语</a></li>
+                <li><a class="dropdown-item" value="古风">古风</a></li>
+                <li><a class="dropdown-item" value="流行">流行</a></li>
+                <li><a class="dropdown-item" value="民谣">民谣</a></li>
+                <li><a class="dropdown-item" value="舰长歌曲">舰长歌曲</a></li>
+                <li><a class="dropdown-item" value="提督歌曲">提督歌曲</a></li>
+            </ul>
+        </div>
         <div class="search ms-auto" style="text-align: center;">
             <input id="NameOfSong" type="text" class="form-control-sm " placeholder="搜索 例：歌手/曲目/曲种">
         </div>
@@ -299,6 +314,10 @@
         </tbody>
     </table>
 </div>
+
+<div id="notfound" class="mx-4" style="display: none;">没有搜到任何结果。</div>
+<div style="height: 5px;"></div>
+
 </section>
                          
 <footer id="footer">
