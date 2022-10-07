@@ -37,13 +37,12 @@
                 isMobile = true;
               }
           }
-          alert(document.getElementById("selectorForMobieDevice").style.visibility);
-          if(isMobile)
+          if(!isMobile)
           {
-            document.getElementById("selector").style.visibility = "hidden";
+            document.getElementById("selector").style.visibility="hidden";
           }
           else
           {
-            document.getElementById("selectorForMobieDevice").style.visibility = "hidden";
+            document.getElementById("selectorForMobieDevice").style.visibility="hidden";
           }
         }()

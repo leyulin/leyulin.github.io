@@ -53,4 +53,10 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) == -1)
     });
   });
+  $("#song-menu li").on("click", function() {
+    var value = $(this).text().toLowerCase();
+    $("#songs tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
 });
