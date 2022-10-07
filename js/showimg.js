@@ -37,7 +37,7 @@
                 isMobile = true;
               }
           }
-          if(!isMobile)
+          if(isMobile)
           {
             document.getElementById("selector").style.visibility="hidden";
           }
