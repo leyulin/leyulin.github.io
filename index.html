@@ -148,7 +148,7 @@
     
 </div>
 
-<section style="background:linear-gradient(255deg,rgb(220, 134, 161) 50%, rgb(52, 101, 251) 100%);  " class="p-4 p-lg-5 mb-1">
+<section style="background:linear-gradient(255deg,rgb(248, 176, 236) 50%, rgb(75, 120, 255) 100%);  " class="p-4 p-lg-5 mb-1">
     <div class="d-flex ">
         <div class=" table-responsive align-items-center d-flex mx-md-4 selectorForPc text-light" id="selector" >
             <div class="form-check  mx-1 selectorForPc">
@@ -161,6 +161,12 @@
                 <input value="国语" class="form-check-input" type="radio" name="flexRadioDefault" id="chinese">
                 <label class="form-check-label" for="chinese">
                     国语
+                </label>
+            </div>
+            <div class="form-check mx-1 selectorForPc">
+                <input value="菜语" class="form-check-input" type="radio" name="flexRadioDefault" id="caicaiyu">
+                <label class="form-check-label" for="caicaiyu">
+                    菜语
                 </label>
             </div>
             <div class="form-check mx-1 selectorForPc">
@@ -214,6 +220,8 @@
             <ul class="dropdown-menu" id="song-menu">
                 <li><a class="dropdown-item">全部</a></li>
                 <li><a class="dropdown-item">国语</a></li>
+                <li><a class="dropdown-item">菜语</a></li>
+                <li><a class="dropdown-item">粤语</a></li>
                 <li><a class="dropdown-item">古风</a></li>
                 <li><a class="dropdown-item">流行</a></li>
                 <li><a class="dropdown-item">民谣</a></li>
@@ -228,14 +236,14 @@
 <div class="mx-md-4 table-responsive">
     <table id="songs" class="table my-3 table-borderless" style="color: white; white-space:nowrap;">
 
-        <thead class="table-active" style="color: rgb(227, 227, 245); border-radius: 2px;  ">
+        <thead class="table-active" style="color: rgb(227, 227, 245); border-radius: 5px;  ">
             <th scope="col"></th>
             <th scope="col">歌名</th>
             <th scope="col">歌手</th>
             <th scope="col">曲种</th>
             <th scope="col">语言</th>
-            <th scope="col">付费</th>
-            <th scope="col">备注</th>
+            <th scope="col">付费 </th>
+            <th scope="col"> 备注</th>
         </thead>
         <tbody id="songListBody">
             <tr>
