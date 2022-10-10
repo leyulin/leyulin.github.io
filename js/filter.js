@@ -38,13 +38,19 @@ $(document).ready(function(){
   $("#vip1").on("click", function() {
     var value = $(this).val().toLowerCase();
     $("#songs tr").filter(function() {
-      $(this).toggle($(this).find("td:eq(3 )").text().toLowerCase().indexOf(value) > -1)
+      $(this).toggle($(this).find("td:eq(5 )").text().toLowerCase().indexOf(value) > -1)
     });
   });
   $("#vip2").on("click", function() {
     var value = $(this).val().toLowerCase();
     $("#songs tr").filter(function() {
-      $(this).toggle($(this).find("td:eq(3 )").text().toLowerCase().indexOf(value) > -1)
+      $(this).toggle($(this).find("td:eq(5 )").text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+  $("#vip3").on("click", function() {
+    var value = $(this).val().toLowerCase();
+    $("#songs tr").filter(function() {
+      $(this).toggle($(this).find("td:eq(5 )").text().toLowerCase().indexOf(value) > -1)
     });
   });
   $("#all").on("click", function() {
