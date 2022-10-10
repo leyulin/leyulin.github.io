@@ -28,6 +28,7 @@
     });
 })();
 
+
 !function () {
     var devices = ["iPhone", "Android", "Windows Phone"]
     var ua = window.navigator.userAgent
@@ -39,9 +40,8 @@
     }
     if (isMobile) {
         document.getElementById("selector").style.visibility = "hidden";
-        document.getElementById("selectorForMobieDevice").style.visibility = "visible";
     }
     else {
         document.getElementById("selectorForMobieDevice").style.visibility = "hidden";
     }
-}()
+}();

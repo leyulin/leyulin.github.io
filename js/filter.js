@@ -61,8 +61,18 @@ $(document).ready(function(){
   });
 $("#song-menu li").on("click", function() {
     var value = $(this).text().toLowerCase();
+    if (value == "全部")
+   {
+    $("#songs tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) == -1)
+    });
+  });
+   }
+   else
+   {
     $("#songs tr").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
+   }
 });
