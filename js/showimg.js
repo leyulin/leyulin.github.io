@@ -39,9 +39,9 @@
         }
     }
     if (isMobile) {
-        document.getElementById("selector").style.visibility = "hidden";
+        document.getElementById("selector").remove();
     }
     else {
-        document.getElementById("selectorForMobieDevice").style.visibility = "hidden";
+        document.getElementById("selectorForMobieDevice").remove();
     }
 }();
