@@ -191,7 +191,7 @@
             </div>
         </div>
         <div class="dropdown mx-4" id="selectorForMobieDevice">
-            <button type="button" id="selectorButtonForMobieDevice" class="btn-sm btn-dark dropdown-toggle"
+            <button type="button" id="selectorButtonForMobieDevice" class="btn-sm btn-secondary dropdown-toggle"
                 data-bs-toggle="dropdown">
                 全部
             </button>
@@ -216,12 +216,12 @@
         <table id="songs" class="table my-3 table-borderless" style="color: white; white-space:nowrap; font-size:150%;">
             <thead class="table-active" style="color: rgb(227, 227, 245); ">
                 <th scope="col"></th>
-                <th scope="col">歌名</th>
-                <th scope="col">歌手</th>
-                <th scope="col">曲种</th>
-                <th scope="col">语言</th>
-                <th scope="col" style="padding-right:6em;;">付费</th>
-                <th scope="col">备注</th>
+                <th scope="col" id="sort_song">歌名</th>
+                <th scope="col" id="sort_singer">歌手</th>
+                <th scope="col" id="sort_category">曲种</th>
+                <th scope="col" id="sort_language">语言</th>
+                <th scope="col" id="sort_pay" style="padding-right:6em;;">付费</th>
+                <th scope="col" id="sort_memo">备注</th>
             </thead>
             <tbody id="songListBody">
                 <tr>
@@ -568,7 +568,7 @@
                 </tr>
                 <tr>
                     <td align="center" style="color: rgb(124,124,134);"> </td>
-                    <td onclick="copy(this)" data-clipboard-text="点歌 那年（初版）">那年（初版）</td>
+                    <td onclick="copy(this)" data-clipboard-text="点歌 那年（初版）">那年</td>
                     <td>任然</td>
                     <td>流行</td>
                     <td>国语</td>
@@ -4723,11 +4723,12 @@
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <script src="/js/bootstrap.bundle.min.js"></script>
         <script src="/js/clipboard.min.js"></script>
-        <script src="/js/particlex.js"></script>
-        <script src="/js/copy.js"></script>
-        <script src="/js/showimg.js"></script>
-        <script src="/js/filter.js"></script>
-        <script src="/js/time.js"></script>
+        <script src="/js/particlex.min.js"></script>
+        <script src="/js/copy.min.js"></script>
+        <script src="/js/showimg.min.js"></script>
+        <script src="/js/sort.min.js"></script>
+        <script src="/js/filter.min.js"></script>
+        <script src="/js/time.min.js"></script>
         
 
     </body>
