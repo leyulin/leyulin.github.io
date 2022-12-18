@@ -10,6 +10,16 @@
     }
 }
 
+@keyframes load {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 @-webkit-keyframes into {
     0% {
         opacity: 0;
@@ -460,12 +470,13 @@ pre .copycode {
     justify-content: center;
     text-align: center;
     color: #333;
+
     border-radius: 50%;
 }
 
 #home-head .home-info .loop:nth-child(1) {
-    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    background: #fff;
+    border-radius: 38% 55% 63% 37%/41% 44% 56% 59%;
+    background: rgb(6, 134, 255);
     opacity: 0.3;
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
@@ -479,8 +490,8 @@ pre .copycode {
 }
 
 #home-head .home-info .loop:nth-child(2) {
-    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
-    background: #fff;
+    border-radius: 38% 55% 63% 37%/41% 44% 56% 59%;
+    background: rgb(180, 255, 133);
     opacity: 0.45;
     -webkit-transform: rotate(60deg);
     -moz-transform: rotate(60deg);
@@ -494,9 +505,9 @@ pre .copycode {
 }
 
 #home-head .home-info .loop:nth-child(3) {
-    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+    border-radius: 38% 55% 63% 37%/41% 44% 56% 59%;
     opacity: 0.3;
-    background: #fff;
+    background: rgb(255, 157, 157);
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -509,9 +520,9 @@ pre .copycode {
 }
 
 #home-head .home-info .loop:nth-child(4) {
-    border-radius: 38% 62% 63% 37%/41% 44% 56% 59%;
+    border-radius: 38% 55% 63% 37%/41% 44% 56% 59%;
     opacity: 0.45;
-    background: #fff;
+    background: rgb(255, 255, 255);
     -webkit-transform: rotate(120deg);
     -moz-transform: rotate(120deg);
     -o-transform: rotate(120deg);
@@ -1518,19 +1529,22 @@ footer .footer-icon {
     }
 
     #home-head .home-info .info .wrap h1 {
-        font-size: 52px;
-        font-weight: bold;
-        font-family: "Poppins", "Noto Sans SC", sans-serif;
+        font-size: 30px;
+        font-family:'STHUPO';
+        color:#1a1a1a;
         margin-bottom: 10px;
     }
 
     #home-head .home-info .info .wrap h3 {
         font-size: 24px;
+        font-family:'STHUPO';
         margin: 10px 0;
     }
 
     #home-head .home-info .info .wrap h5 {
-        font-size: 16px;
+        font-size: 24px;
+        font-weight: bold;
+        font-family:'宋体';
         margin: 20px 0;
     }
 
@@ -1540,6 +1554,34 @@ footer .footer-icon {
 
     ol {
         padding-left: 40px;
+    }
+
+    #ruleImg{
+        background: url("/images/rule.webp") no-repeat 0px 0px;
+        background-size:contain;
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        z-index:9999;
+        border: 1px solid rgb(0, 0, 0);
+        display: none;
+    }
+    a:hover #ruleImg{
+        display:block;
+    }
+
+    #QRcode{
+        background: url("/images/QRcode.jpg") no-repeat 0px 0px;
+        background-size:cover;
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        z-index:9999;
+        border: 1px solid rgb(0, 0, 0);
+        display: none;
+    }
+    a:hover #QRcode{
+        display:block;
     }
 
     #home-posts-wrap {
@@ -1587,6 +1629,7 @@ footer .footer-icon {
         width: 900px;
     }
 }
+
 
 @media (min-width: 900px) and (max-width: 1200px) {
     #home-posts-wrap {
@@ -1636,7 +1679,7 @@ footer .footer-icon {
         margin: auto;
         width: 350px;
         height: 350px;
-        background: rgba(255, 255, 255, 0.651);
+        background: rgba(224, 240, 255, 0.651);
     }
 
     #home-head .home-info .info .wrap {

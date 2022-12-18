@@ -27,18 +27,39 @@
     <body>
         <canvas id="fireworks"
             style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:2147483647"></canvas>
+
         <div id="loading"
-            style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out">
-            <div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center">
-                <div id="loadcontent"
-                    style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center">
+            style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:rgb(255, 255, 255);transition:opacity 0.3s ease-out">
+            <div
+                style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center;">
+                <div id="loadcontent" style="width:50vmin;
+                    height:50vmin;
+                    border-radius:50%;
+                    border:4px solid #f3f3f3;
+                    border-radius:50%;
+                    border-top:16px solid #f7b3f8;
+                    display:flex;
+                    animation:load 1s linear;">
+                </div>
+                <div style=" 
+                justify-content:center;
+                text-align:center;
+                position:absolute;
+                display:flex;
+                width:30vmin;
+                height:30vmin;
+                overflow : hidden;
+                font-family:'Courier New', Courier, monospace;
+                padding:50px;">
                     <div>
-                        <h2>菜菜正在睡觉捏zzzZZ...</h2>
+                        <h2>今天天气不错捏 !</h2>
+                        <h2>菜菜正在睡觉捏zzzZ...</h2>
                         <p style="word-break:keep-all">如果加载过慢请开启缓存(浏览器默认开启)</p>
                     </div>
                 </div>
             </div>
         </div>
+
         <div id="layout">
             <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
             <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
