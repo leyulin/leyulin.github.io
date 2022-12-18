@@ -443,7 +443,7 @@ pre .copycode {
 
 #home-head {
     width: 100%;
-    height: calc(100vh + 50px);
+    height: calc(100vh + 150px);
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1559,29 +1559,27 @@ footer .footer-icon {
     #ruleImg{
         background: url("/images/rule.webp") no-repeat 0px 0px;
         background-size:contain;
-        width: 70%;
-        height: 100%;
+        width: 66%;
+        height: 93%;
         position: absolute;
-        z-index:9999;
-        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
         display: none;
     }
     a:hover #ruleImg{
-        display:block;
+        display:flex;
     }
 
     #QRcode{
         background: url("/images/QRcode.jpg") no-repeat 0px 0px;
         background-size:cover;
         width: 70%;
-        height: 100%;
+        height: 95%;
         position: absolute;
-        z-index:9999;
-        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
         display: none;
     }
     a:hover #QRcode{
-        display:block;
+        display:flex;
     }
 
     #home-posts-wrap {
@@ -1683,11 +1681,11 @@ footer .footer-icon {
     }
 
     #home-head .home-info .info .wrap {
-        padding: 50px;
+        padding: 1px;
     }
 
     #home-head .home-info .info .wrap h1 {
-        font-size: 46px;
+        font-size: 24px;
         font-weight: bold;
         font-family: "Poppins", "Noto Sans SC", sans-serif;
         margin-bottom: 10px;
@@ -1704,15 +1702,15 @@ footer .footer-icon {
     }
 
     ul {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     ol {
-        padding-left: 20px;
+        padding-left: 10px;
     }
 
     #home-posts-wrap {
-        padding: 20px 0;
+        padding: 10px 0;
         width: 95%;
     }
 
