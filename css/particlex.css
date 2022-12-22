@@ -256,6 +256,36 @@
     }
 }
 
+.new:after{
+    content:'New';
+    box-sizing: border-box;
+    padding:0px 5px;
+    border-radius: 8px;
+    font-style: oblique;
+    font-size: 12px;
+    font-family: DIN-MediumItalic;
+    color: white;
+    background: linear-gradient(180.00deg, #ee3238 0.00%, #ff6368 100.00%);
+    position: relative;
+    top: -8px;
+    right:3px;
+}
+
+.hot:after{
+    content:'Hot';
+    box-sizing: border-box;
+    padding:0px 5px;
+    border-radius: 8px;
+    font-style: oblique;
+    font-size: 12px;
+    font-family: DIN-MediumItalic;
+    color: white;
+    background: linear-gradient(180.00deg, #4359ff 0.00%, #ff6368 100.00%);
+    position: relative;
+    top: -8px;
+    right:3px;
+}
+
 body {
     width: 100%;
     background: #f6f8fa;

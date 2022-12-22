@@ -1,10 +1,9 @@
-function tougao() {
-  let a = "14234036@qq.com [你的b站昵称]+[合唱]/[独唱]+[曲目名称]";
+function tougao(a) {
   var b = new ClipboardJS(a);
   b.on("success", function (e) {
     swal({
       button: "确定",
-      title: "投稿格式" + a.innerText + " 复制成功！",
+      title: a.innerText + " 复制成功！",
       icon: "success",
       text: "下个夺冠的就是你！"
     });
